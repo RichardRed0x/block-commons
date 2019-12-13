@@ -12,7 +12,7 @@ date: "2019-09-19T00:00:00Z"
 external_link: ""
 
 draft:
-  true
+  false
 
 image:
   caption: 

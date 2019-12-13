@@ -1,13 +1,12 @@
 ---
-title: 'What is Staking and How Much Does it Cost?' 
+title: 'Overview of ''staking'' in a variety of projects' 
 authors:
 - richard
 tags:
 - Governance
 - Proof of Stake
 - PoS
-categories:
-- Blog
+
 date: "2019-12-122T00:00:00Z"
 lastmod: "2019-12-12T00:00:00Z"
 featured: true
@@ -19,7 +18,7 @@ toc: true
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
-  placement: 2
+  placement: 3
   caption: ''
   focal_point: ""
   preview_only: false
@@ -29,12 +28,12 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ['crypto-governance-research']
 ---
 
 This post considers "staking", the practice of using cryptographic coins or tokens to participate in some functional or governance role(s) within a decentralized (blockchain) production effort. The classic example is Proof of Stake (PoS) consensus, where token holders collectively perform the task of maintaining consensus and creating new blocks. This function is performed by Proof of Work miners in Bitcoin.
 
-The term "staking" is now used much more broadly, including Delegated Proof of Stake systems and also hybrid forms. A number of companies now offer and promote "staking services" where they use custodied funds to participate in these processes and share some percentage of the rewards with their clients/depositors. Coinbase, Binance and Kraken all provide such services.
+The term "staking" is now used much more broadly, including Delegated Proof of Stake systems and also hybrid forms. A number of companies now offer and promote staking services where they use custodied funds to participate in these processes and share some percentage of the rewards with their clients/depositors. Coinbase, Binance and Kraken all provide such services.
 
 Staking means putting something of value at stake (like coins or tokens) as a kind of guarantee that one will participate in good faith and not try to abuse the system. As participants have skin in the game and would suffer from damage to the resource, they are incentivized to look after it - or at least the "tokenomics" have been designed this way.
 
@@ -46,39 +45,43 @@ The aim of this post is to characterize the type of "staking" that takes place i
 * Can staking be delegated?
 * What is the minimum requirement to participate in staking?
 
-The project titles link to their crypto governance research profiles (where available), these profiles have more in depth information about the projects. 
+The project titles link to their [crypto governance research](/crypto-governance-research/overviews/) profiles (where available), these profiles have more in depth information about the projects.
+
+There are rough USD equivalent minimum costs to participate in each project (based on the 13 Dec 2019 rates). This post started with answering the question about barriers to entry, but those figures don't make sense without an understanding of what one is participating in.
 
 ## [EOS](/crypto-governance-research/overviews/eos)
 
 DPoS smart contract platform
 
-- Does staking play a role in maintaining consensus?
+- *Does staking play a role in maintaining consensus?*
 
 Indirectly, EOS uses Delegated Proof of Stake (DPoS). EOS holders vote to elect 21 [Block Producers](https://eosauthority.com/producers_rank) (BPs) and a number of standby BPs. These entities maintain consensus and produce new blocks.
 
-- Does staking play a role in governance?
+"Staking" has another meaning within EOS, where EOS holders can stake their EOS to gain access to network resources, which allows them to make transactions and run smart contracts.
+
+- *Does staking play a role in governance?*
 
 In principle, through [referendum polls](https://eosauthority.com/polls) which are intended to make decisions which should then be enacted by the BPs. EOS referendums have low turnout (< 3%) and most of the "approved" polls have yet to be put into practice by BPs.
 
 Changing consensus rules requires the cooperation of 15 of the 21 active BPs. The active BPs have changed the rules in this way on a number of occasions
 
-- Is staking incentivized?
+- *Is staking incentivized?*
 
 Staking EOS to vote for BPs is not incentivized, but EOS can be staked to secure resources on the network.
 
 The role of BP is incentivized with 1% annual inflation, with distribution weighted towards the active 21 BPs, although around 40 standby BPs also receive some rewards.
 
-- Can staking be delegated?
+- *Can staking be delegated?*
 
 Yes, EOS is a Delegated Proof of Stake system, so all of the voting power that elects BPs is delegated. Holders can delegate to themselves, but their EOS can vote for up to 21 BPs. Vote buying and trading between BPs was prohibited in the original EOS constitution, but this prohibition was lifted with the adoption of a "user agreement" which restricted itself to enforceable rules.
 
-- What is the minimum requirement to participate in staking?
+- *What is the minimum requirement to participate in staking?*
 
 There is no minimum requirement to vote for BPs.
 
-The minimum voting power required to be in the top 21 is **300,000 EOS votes (worth ~$1 million)**,
+The minimum voting power required to be in the top 21 is **300,000 EOS votes (worth ~$780,000)**,
 but the way voting power works means that it is much easier to rank highly with support from other BPs and holders. BPs that reach a certain threshold are paid at a lower rate as standby BPs, this is currently 
-at **50,000 EOS votes ($180,000)**. 
+at **50,000 EOS votes ($130,000)**. 
 
 BPs are required to maintain a powerful node that can handle a significant volume of traffic, this is enforced/checked for active BPs but not for standby BPs.
 
@@ -128,7 +131,7 @@ Yes. Most XTZ that participates in baking is delegated.
 
 - *What is the minimum requirement to participate in staking?*
 
-Minimum roll size to participate as an independent baker is **8,000 XTZ ($7,600)**. 
+Minimum roll size to participate as an independent baker is **8,000 XTZ ($14,400)**. 
 
 ## Cosmos
 
@@ -152,7 +155,7 @@ Yes.
 
 - *What is the minimum requirement to participate in staking?*
 
-The minimum number of ATOMs required to be one of the top 100 active validators is currently around **85,000 ($323,000)**. 
+The minimum number of ATOMs required to be one of the top 100 active validators is currently around **85,000 ($340,000)**. 
 
 There is no minimum amount for delegation.
 
@@ -202,7 +205,7 @@ Not without also granting custody of collateral funds to a "managed" master node
 
 - *What is the minimum requirement to participate in staking?*
 
-**1,000 DASH (~$60,000)** is required for collateral, and a server which is always online.
+**1,000 DASH (~$50,000)** is required for collateral, and a server which is always online.
 
 ## [Decred](/crypto-governance-research/overviews/decred)
 
@@ -226,7 +229,7 @@ Partially. Ticket-holders can delegate the act of making their vote to a voting 
 
 - *What is the minimum requirement to participate in staking?*
 
-The price for a single ticket is determined algorithmically, targeting a live ticket pool size of 40,960 tickets. The price for a ticket is currently around **130 DCR (~$2,600)**. Ticket-splitting software, which allows participation in a combined ticket purchase with others for a minimum **5 DCR ($100)** is in beta and being actively used by some community members. 
+The price for a single ticket is determined algorithmically, targeting a live ticket pool size of 40,960 tickets. The price for a ticket is currently around **150 DCR (~$3,000)**. Ticket-splitting software, which allows participation in a combined ticket purchase with others for a minimum **5 DCR ($100)** is in beta and being actively used by some community members. 
 
 Stakeholders who do their own (solo) voting will incur some cost from maintaining online wallets, stakeholders who use a VSP pay a small fee (1-5% of the reward).
 
@@ -252,7 +255,7 @@ No.
 
 - *What is the minimum requirement to participate in staking?*
 
-There is no technical minimum, but wallets with little QTUM will be selected very infrequently. Participation requires maintenance of an online wallet at all times, which has associated costs. This [resource](https://medium.com/coinmonks/getting-started-with-qtum-staking-for-advanced-users-qtumd-qtum-cli-node-wallet-b076a2ccfb64) puts the minimum to stake without making a loss at **160 QTUM ($368)**. 
+There is no technical minimum, but wallets with little QTUM will be selected very infrequently. Participation requires maintenance of an online wallet at all times, which has associated costs. This [resource](https://medium.com/coinmonks/getting-started-with-qtum-staking-for-advanced-users-qtumd-qtum-cli-node-wallet-b076a2ccfb64) puts the minimum to stake without making a loss at **160 QTUM ($300)**. 
 
 ## Algorand
 
@@ -304,4 +307,4 @@ Yes all Lisk staking is delegated, in true DPoS fashion.
 
 - *What is the minimum requirement to participate in staking?*
 
-LSK holders [can vote](https://www.reddit.com/r/Lisk/comments/6wsb9x/voting_explained/) for up to 101 delegates, but **each vote costs 1 LSK (~$.070)** and only 33 delegates can be voted for each time, so to use **full voting power requires 4 votes costing 1 LSK each**. Every time votes are changed this costs another 1 LSK, so there is incentive to set and forget. Rewards shared are proportional to total holdings, so it may take a long time for small LSK holders to earn back the cost of their votes.
+LSK holders [can vote](https://www.reddit.com/r/Lisk/comments/6wsb9x/voting_explained/) for up to 101 delegates, but **each vote costs 1 LSK (~$.065)** and only 33 delegates can be voted for each time, so to use **full voting power requires 4 votes costing 1 LSK each**. Every time votes are changed this costs another 1 LSK, so there is incentive to set and forget. Rewards shared are proportional to total holdings, so it may take a long time for small LSK holders to earn back the cost of their votes.
