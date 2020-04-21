@@ -53,11 +53,11 @@ This time around I have graphed the USD and BTC pairs separately, using the USD 
 
 There is a discrepancy with my method and i2's specification. I use the mid-point between the best buy and offer as the "price" and recorded orders as being within certain distances of that price. i2's specification is that the liquidity should be within X% of the best buy and offer, taken separately, but the proposals also specifies that the spread between these should be max 0.5% (for BTC pairs) or 0.75% (for USD pairs). So, in addition to the 2% and 4% levels, I also considered the 5% level, as that should cover all the orders within a reasonable distance of the current price. I'm only including the 2% and 5% graphs here.
 
-![](depth-usd-2.png)
+{{< figure src="depth-usd-2.png" title="Order book depth at 2% from price, in $USD equivalent" >}}
 
 The graph showing orders within 2% of the current price is just missing i2's orders (which are ~2% from the best bid or offer) but shows what they had available at the tightest spread. 
 
-![](depth-usd-5.png)
+{{< figure src="depth-usd-5.png" title="Order book depth at 5% from price, in $USD equivalent" >}}
 
 An issue was identified in the previous report with USD markets being provisioned at "BTC-denominated" rates (i.e. 5 BTC worth of USD rather than $50,000 USD), and as the USD price of Bitcoin had declined this resulted in lower liquidity provision. This was remedied by i2 in Feb, but it appears that in March when the price of everything crashed, so did the liquidity on these markets. 
 
@@ -65,27 +65,27 @@ The other thing which comes across about the USD markets is that the buy and sel
 
 It should be noted that the Huobi USDT pair was not being covered or billed for for some months after Bitrrex USD coverage began, as it was requested to be swapped over. From December to February this market was not being covered by i2, but they started covering it again in March.
 
-![](depth-btc-2.png)
+{{< figure src="depth-btc-2.png" title="Order book depth at 2% from price, in BTC equivalent" >}}
 
-![](depth-btc-5.png)
+{{< figure src="depth-btc-5.png" title="Order book depth at 5% from price, in BTC equivalent" >}}
 
 The BTC order books look much more lively by comparison, but they are quite flat over the time period. There is no indication here that liquidity has been improving in USD or BTC terms over the last 5 months, beyond the orders which i2 have added to the books directly.
 
 The next graph shows the order fill history for these markets, which gives context for some of the movements in the order book depth charts.
 
-![](order-fill-history.png)
+{{< figure src="order-fill-history.png" title="History of completed orders, sized by volume" >}}
 
 ## Volume
 
 These bar charts show the volume of DCR traded by day and month on the pairs covered by the MM.
 
-![](DCR-volume.png)
+{{< figure src="DCR-volume.png" title="Trading volume per day" >}}
 
-![](DCR-volume-month.png)
+{{< figure src="DCR-volume-month.png" title="Trading volume per month" >}}
 
 The next one shows USD equivalent for filled orders.
 
-![](USD-volume-month.png)
+{{< figure src="USD-volume-month.png" title="Trading volume per month (USD equivalent)" >}}
 
 Looking at the monthly figures suggests that Nov 2019 was the most active month, this was a month that saw significant price increase for DCR. Trading volume dropped in December as the price also dropped then stabilized. Since then volume has been increasing month on month in DCR terms, mostly driven by expansion at Binance and Huobi.
 
@@ -97,7 +97,7 @@ It seems there is some missing ingredient on Bittrex USD(T) markets, and the res
 
 Let's take a look at what's been happening in the cryptocurrency markets more generally, using some data I started collecting about similar projects for comparison back in August. To compare assets I first converted all figures to USD. This graph shows open orders within 5% of current price for all the BTC and USD pairs for a selection of assets on Binance, Bittrex and Huobi.
 
-![](assets-liquidity-by-pair-5.png)
+{{< figure src="assets-liquidity-by-pair-5.png" title="Order book depth at 5%, in $USD equivalent" >}}
 
 This graph shows the time before MM activity started, when the DCR orderbooks were very thin indeed, and you can see the difference when i2 started up in late October.
 
@@ -111,7 +111,7 @@ To make a general comparison, the DCR chart here looks relatively flat, it is mi
 
 The next graph shows the same order book depth data but as a proportion of market capitalization for each asset. I capped these at 0.0015 because a few spikes for some assets were expanding the range making it difficult to see what was going on. 
 
-![](assets-liquidity-by-mcap-5.png)
+{{< figure src="assets-liquidity-by-mcap-5.png" title="Order book depth at 5%, proportional to market capitalization (USD)" >}}
 
 When market cap is controlled for, the DCR markets still don't look great. Also worth noting is that this only considers 3 exchanges, the 3 exchanges with the deepest DCR order books by far. Some of the other assets considered here are also listed on other large exchanges where a significant amount of trading occurs.
 
