@@ -32,7 +32,7 @@ projects: []
 
 Youth Booster Credits is an idea I've been thinking about for a year or so, and I'm curious 1) whether people think something like this would be desirable, 2) why it wouldn't or couldn't work, 3) what the best approaches are to overcoming the main issues with the concept. It's a (thought) experiment, so please discuss and I'll be considering whatever I hear about it as part of my research. It may well feature in some way in version 1.0 of [cryptocommons.cc](www.cryptocommons.cc). If you want to provide perspectives/input under Chatham House rules drop me a DM. There’s a survey at the end and polls on twitter for a more casual way to provide (still useful) data for my research.
 
-Sep 21, ~1430 UTC, Youth Booster Credits levelled up to v1.1, based on early feedback.
+Sep 21, ~1550 UTC, Youth Booster Credits levelled up to v1.1, based on early feedback.
 
 # Youth Booster Credits
 
